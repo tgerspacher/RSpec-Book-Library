@@ -1,7 +1,8 @@
 require 'spec_helper'
+require './book'
 
 describe Book do
-	book :each do
+	before :each do
 		@book = Book.new "Title", "Author", :category
 	end
 
