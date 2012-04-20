@@ -1,5 +1,5 @@
 require 'spec_helper'
-require './library'
+#require './library'
 
 describe "Library object" do
 
